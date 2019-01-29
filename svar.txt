@@ -1,0 +1,25 @@
+//What is a function literal?
+En function literal er en funksjon som oftest blir brukt som argument til funksjoner.
+En function literal kan også beskrives som en "anonym funksjon", en funksjon uten navn.
+
+//What is the constructor?
+Constructor brukes til å lage objekter for eksempel via class eller object. 
+
+//What does the return statement do?
+"Return" er en funksjon brukt til funksjoner, den forteller rett og slett hva slags verdi
+funksjonen skal returnere. I funksjoner kan den også brukes til å slutte utføringen av
+funksjonen, ved for eksempel if statements
+
+//What will be written to the console from this function
+function myFunction(){
+      return console.log('inside my function');
+      console.log('My name is Andy');
+}myFunction();
+
+Konsollen skriver ut "inside my function".
+
+//Briefly describe scope in JavaScript.
+Javascript har noe som kalles "function scope", variabler deklarert inni en funksjon
+er ikke tilgjengelig utenfor denne funksjonen ("local scope"). Variabler deklarert utenfor
+funksjoner har en "global scope" som betyr at variabelen kan kalles og endres hvor som helst 
+i koden.
